@@ -22,3 +22,14 @@ function sort(a, b) {
 }
 
 sort(['c','d','e','f','g'],[3,0,4,1,2]);
+
+//or
+
+/*var A = ['C', 'D', 'E', 'F', 'G'],
+    B = [3, 0, 4, 1, 2];
+    C = new Array(B.length)
+A.forEach(function(value, index) {
+    C[B[index]] = value;
+});
+
+console.log(C);*/
